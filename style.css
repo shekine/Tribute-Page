@@ -1,0 +1,108 @@
+/* Background pattern from Toptal Subtle Patterns */
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@800&family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+}
+
+main header {
+  background: url("https://cdn8.openculture.com/2020/04/16210112/chihiro1-e1587102738786.jpg");
+  padding: 12% 16%;
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+main header h1, main header p {
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  font-family: 'Kufam', serif;
+  margin: 0;
+}
+
+main header h1 {
+  font-size: 5rem;
+}
+
+main header p {
+  font-size: 1.5rem;
+}
+
+main figure {
+  background: url('https://www.toptal.com/designers/subtlepatterns/patterns/geometric-leaves.png');
+  margin: 0;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+main figure img {
+  height: inherit;
+  max-width: 40%;
+  border-radius: 3px;
+}
+
+main figure figcaption {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+main section {
+  font-family: 'Lato', sans-serif;
+  padding: 5% 5% 0;
+  text-align: left;
+}
+
+main section h2 {
+  padding-top: 3%;
+  margin: 0;
+}
+
+main section ul {
+  list-style-type: none;
+}
+
+main section ul li {
+  padding: 3px;
+}
+
+main h3 {
+  background: url('https://www.toptal.com/designers/subtlepatterns/patterns/geometric-leaves.png');
+  text-align: center;
+  padding: 5%;
+  width: 100%;
+  margin: 10% 0 0 0;
+}
+
+@media(max-width: 1200px) {
+  main figure img {
+    max-width: 30%;
+  }
+  
+  main header h1 {
+    font-size: 3rem;
+  }
+  
+  main section {
+    width: 95%;
+  }
+}
